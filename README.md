@@ -67,7 +67,7 @@ python scripts/sd_to_safetensors.py --src input.ckpt --dst output.safetensors
 ```
 
 
-## Result
+## Result(LoRA)
 
 ## Original Image and Prompt
 
