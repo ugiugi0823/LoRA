@@ -546,7 +546,7 @@ I keep getting asked about this and was forced to have to experiment, but, yes, 
 - **Pokemon** and similar cartoony animals will work perfectly just with NAI. There are lots of examples already.
 - You are making your model **more compatible** with other concepts by using NAI as base.
 
-<p align="center"><img src="./png/RoLA-1.png" alt="P1"> 
+<p align="center"><img src="../png/RoLA-1.png" alt="P1"> 
 
 
 This LoRA was trained with Prodigy, 1200 steps, 90 images, 512 resolution, booru tagged, from NAI (see my settings above, copy my base Prodigy args in the Prodigy section). It was not inpainted (adetailer didn't kick in) or edited in any way besides halving the size to paste here. You can see it has a "sort of humanoid" body plan, so it'll work just fine. It's able to get a decent variety of poses and even properly proportioned clothes, and despite this example having an empty background (I didn't specify any), it can do them fine. Can throw this into AOM3 and generate the character with its characteristic style.
@@ -567,7 +567,7 @@ I personally think using more exotic base models leads to a fragmentation of the
 
 |Grid of Unet/TE strengths 0.1,0.25,0.5,1 and 2 |Grid of Unet/TE strengths 1.0,1.2,1.4,1.5,1.6,1.8 |
 |--|---|
-|![RoLA-7](./png/RoLA-7.png)|![RoLA-8](./png/RoLA-8.png)|
+|![RoLA-7](../png/RoLA-7.png)|![RoLA-8](../png/RoLA-8.png)|
 
 
 
@@ -770,7 +770,7 @@ Captions are composed of either a bunch of _prose_ describing the image ("Laet
 If you find the captioning process a hassle, or **you want to train an artist style** without bothering, scroll down to the "Keyword Dreambooth" section.
 
 #### mutiple concept
-<p align="center"><img src="./png/RoLA-9.png" alt="P9">
+<p align="center"><img src="../png/RoLA-9.png" alt="P9">
 
 Training multiple concepts in a single LORA, despite their more focused usage, is still possible. The image example uses the character of [Laetitia](https://lobotomycorp.fandom.com/wiki/Laetitia) in [Hitachi Seaside Park](https://en.wikipedia.org/wiki/Hitachi_Seaside_Park#/media/File:Baby_blue-eyes,Nemophila,Hitachinaka-city,Japan.jpg), both baked into the same model.  
 You can train backgrounds, more than one character, items related to that character...anything goes, but it needs tagging and some logical balance, some common sense applies:
@@ -1380,7 +1380,7 @@ To examine loss charts, you have to enable a log folder and use Tensorflow to se
 Due to the random nature of AI imaging, first impressions might be misleading. Your model might output 3 great images by sheer chance, you call it good, and then you find out it has issues. Same if the first few images are bad.  
 So make sure to test your models and try a lot of different prompts, mixes and other addons to see how the model actually performs. XY plots or a few batches of like 5 images can help expediting the process.  
 
-<p align="center"><img src="./png/RoLA-2.png" alt="P2">
+<p align="center"><img src="../png/RoLA-2.png" alt="P2">
 
 
 Try a multitude of scenarios, poses, clothes and expressions. I just keep a list of prompts I copypaste when testing.
@@ -1411,7 +1411,7 @@ At times it is just how it is, as training from other checkpoints or altering tr
 
 ### Overfitting
 
-<p align="center"><img src="./png/RoLA-3.png" alt="P3">
+<p align="center"><img src="../png/RoLA-3.png" alt="P3">
 
 A model becomes "overfit" when it tries to reproduce the training images too aggressively or the results are plain weird.  
 This is usually caused by the unet "burning up". A burned up Unet basically has probabilities for things set too high or too low due to math indigestion.
@@ -1437,7 +1437,7 @@ It saves a lot of guesswork if you are setting training rates manually.
 
 ### Debugging tagging
 
-<p align="center"><img src="./png/RoLA-4.png" alt="P4">
+<p align="center"><img src="../png/RoLA-4.png" alt="P4">
 In this case I didn't have enough examples of the character (One possible generic skin for the Medic class, or "megane Medi-ko" from Etrian Odyssey IV) with different clothes so it's biased to filling space for a bag that might or might not be asked for, and a specific design with a sailor neck and visible straps around the waist.  
 The bag can be solved by _properly tagging all images with a visible bag, something I failed to do in this case_. I went with "messenger bag" since it was the type that came up the most often when autotagging, but only applied it to a few images.  
 You may see stuff like shirt logos or specific accessories being too hard to get rid of. In this case, the coat elements issue is harder to get rid of and usually requires more images to teach it how to separate element from character and a tag to solidify that knowledge (preferably an existing one).  
@@ -1450,7 +1450,7 @@ The **differences are subtle compared to TE issues**, but the more you train th
 
 ![BE PRAYING](https://i.imgur.com/JXs0gfA.png "BE PRAYING")**EFFORT ALERT. DON'T GIVE UP**_WORK IN PROGRESS (sciencing needs time and a lot of trial and error, please wait patiently)_  
 
-<p align="center"><img src="./png/RoLA-5.png" alt="P5">
+<p align="center"><img src="../png/RoLA-5.png" alt="P5">
     
 I'm particularly specializing on rare characters, I'll update this section with advice on how to get by if you only have a few crappy images of your favorite character.  
 I have seen a curious phenomenon of people wanting to turn specific AI outputs into a more fleshed out character and the entire thing _fascinates_ me at a fundamental level, so I'll try to expand this advice to help out with that as well.
@@ -1478,7 +1478,7 @@ Prepare some form of image editor (I recommend [Krita](https://rentry.org/59xed
 
 While a full tutorial is out of the scope of this rentry, I advise finding a basic tutorial video and maybe setting up the plugin to send images back and forth from Krita to sd-webui (but good old copy/paste works too).  
 After doing stuff for a while, I find these tools to be rather useful.  
-<p align="center"><img src="./png/RoLA-6.png" alt="P6">
+<p align="center"><img src="../png/RoLA-6.png" alt="P6">
 These four tools, all placed in the Digital section of Brush Presets, are your bread and butter editing tools.
 
 - Distort Move will _displace_ stuff under the cursor in the direction of your stroke. This can be used to fix short limbs, make hair longer or shorter and generally morph an image. Be careful, as it's blurry, so the bigger the resolution of the image the better. Use img2img/inpaint to fix the results.
