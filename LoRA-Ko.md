@@ -41,7 +41,7 @@
         - [차량](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#%EC%B0%A8%EB%9F%89)
     - [시작 설정](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#%EC%8B%9C%EC%9E%91-%EC%84%A4%EC%A0%95)
         - [최적의 설정](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#%EC%B5%9C%EC%A0%81%EC%9D%98-%EC%84%A4%EC%A0%95)
-        - ["쉬운 설정" 
+        - [쉬운 설정]()
     - [어떤 모델에서 훈련해야 할까요?](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#%EC%96%B4%EB%96%A4-%EB%AA%A8%EB%8D%B8%EC%97%90%EC%84%9C-%ED%9B%88%EB%A0%A8%ED%95%B4%EC%95%BC-%ED%95%A0%EA%B9%8C%EC%9A%94?)
         - [NAI에 대한 법적 고려사항](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#nai%EC%97%90-%EB%8C%80%ED%95%9C-%EB%B2%95%EC%A0%81-%EA%B3%A0%EB%A0%A4%EC%82%AC%ED%95%AD)
         - [AnyLoRA](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#anylora)
@@ -53,7 +53,7 @@
     - [옵티마이저](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#%EC%98%B5%ED%8B%B0%EB%A7%88%EC%9D%B4%EC%A0%801)
         - [Lion](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#lion)
         - [AdaFactor](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#adafactor)
-        - [DAdaptation  
+        - [DAdaptation]()
         - [Prodigy](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#prodigy)
         - [d](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#d)
         - [d_coef](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#d-coef)
