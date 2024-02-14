@@ -486,7 +486,7 @@ AnyLoRA는 훈련에 사용할 수 있는 새로운 체크포인트입니다.
 
 ![[Pasted image 20240214110620.png]]
 
-<p align="center"><img src=".png/RoLA-1.png" alt="P1">
+<p align="center"><img src="./png/RoLA-1.png" alt="P1">
 
   
 
