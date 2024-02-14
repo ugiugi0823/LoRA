@@ -547,6 +547,8 @@ I keep getting asked about this and was forced to have to experiment, but, yes, 
 - You are making your model **more compatible** with other concepts by using NAI as base.
 
 <p align="center"><img src="./png/RoLA-1.png" alt="P1"> 
+
+
 This LoRA was trained with Prodigy, 1200 steps, 90 images, 512 resolution, booru tagged, from NAI (see my settings above, copy my base Prodigy args in the Prodigy section). It was not inpainted (adetailer didn't kick in) or edited in any way besides halving the size to paste here. You can see it has a "sort of humanoid" body plan, so it'll work just fine. It's able to get a decent variety of poses and even properly proportioned clothes, and despite this example having an empty background (I didn't specify any), it can do them fine. Can throw this into AOM3 and generate the character with its characteristic style.
 
 Now, you probably want to use stuff like fluffyrock if you want to:
