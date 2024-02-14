@@ -486,7 +486,7 @@ AnyLoRA는 훈련에 사용할 수 있는 새로운 체크포인트입니다.
 
 ![[Pasted image 20240214110620.png]]
 
-<p align="center"><img src="./png/RoLA-1.png" alt="P1">
+<p align="center"><img src="../png/RoLA-1.png" alt="P1">
 
   
 
@@ -846,7 +846,7 @@ SNR 감마 사용은 DAdaptation 및 아마도 AdaFactor와 일부 문제를 일
 AI 이미징의 무작위한 성질로 인해 첫인상은 오해를 불러일으킬 수 있습니다. 모델이 우연히 첫 3개의 테스트 이미지를 훌륭하게 출력하면, 모델을 좋은 것으로 판단하고 처리할 기회를 놓치게 되며, 나중에 문제점을 발견할 수 있습니다. 첫 몇 장의 이미지가 나쁜 경우도 마찬가지입니다.  
 따라서 모델을 테스트하고 다양한 프롬프트, 조합 및 기타 추가 기능을 사용하여 모델의 실제 성능을 확인해야 합니다. XY 그래프 또는 약 5장의 이미지 일괄 처리로 프로세스를 빠르게 진행할 수 있습니다.
 
-<p align="center"><img src="./png/RoLA-2.png" alt="P2">
+<p align="center"><img src="../png/RoLA-2.png" alt="P2">
 
 
 
@@ -883,7 +883,7 @@ AI 이미징의 무작위한 성질로 인해 첫인상은 오해를 불러일�
 
 ### 과적합
 
-<p align="center"><img src="./png/RoLA-3.png" alt="P3">
+<p align="center"><img src="../png/RoLA-3.png" alt="P3">
 
 
 
@@ -916,7 +916,7 @@ AI 이미징의 무작위한 성질로 인해 첫인상은 오해를 불러일�
 ### 태그 디버깅
 
 
-<p align="center"><img src="./png/RoLA-4.png" alt="P4">
+<p align="center"><img src="../png/RoLA-4.png" alt="P4">
 
 
 이 경우에는 캐릭터의 충분한 다양한 옷을 입은 예시가 충분하지 않았기 때문에 (메디코 클래스의 가능한 일반적인 스킨 또는 Etrian Odyssey IV의 "메가네 메디코"와 같은) 가방에 대한 공간을 채우기 위한 편향이 있으며, 선장 넥과 허리 주변의 가시적인 스트랩이 있는 특정 디자인입니다.  
@@ -934,7 +934,7 @@ TE 문제와 비교하면 **차이가 섬세**하지만 훈련을 할수록 더
 -> **노력이 필요합니다. 포기하지 마세요** <-  
 _작성 중 (과학은 시간과 많은 시행착오가 필요합니다. 기다려 주세요)_  
 ->
-<p align="center"><img src="./png/RoLA-5.png" alt="P5">
+<p align="center"><img src="../png/RoLA-5.png" alt="P5">
 
 
 나는 특히 희귀한 캐릭터에 특화되어 있으며, 좋아하는 캐릭터에 대한 새 이미지가 몇 장만 있는 경우 어떻게 대처해야 하는지에 대한 조언을 이 섹션에서 업데이트할 것입니다.  
@@ -971,7 +971,7 @@ _작성 중 (과학은 시간과 많은 시행착오가 필요합니다. 기다�
 조금 하다가 이 도구들이 꽤 유용하다고 느끼는데 도움이 될 것입니다.
 
 
-<p align="center"><img src="./png/RoLA-6.png" alt="P6">
+<p align="center"><img src="../png/RoLA-6.png" alt="P6">
 
 
 
