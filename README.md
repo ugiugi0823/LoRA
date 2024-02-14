@@ -4,7 +4,7 @@
 
 ## Install Requirements
 ```
-git clone https://github.com/Mikubill/naifu-diffusion
+git clone https://github.com/ugiugi0823/LoRA.git
 ```
 
 ```
