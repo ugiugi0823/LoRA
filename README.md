@@ -1,6 +1,6 @@
 # LoRA
 
-
+<p align="center"><img src="./png/lora-model.jpg" alt="model">
 
 ## Install Requirements
 ```
