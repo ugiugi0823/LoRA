@@ -70,6 +70,13 @@ python scripts/sd_to_safetensors.py --src input.ckpt --dst output.safetensors
 ## Result
 
 
+|book, cup, teacup, plate, flower, bookshelf, animal_ears, 1girl, ribbed_sweater, open_book, tea, rose, potted_plant, sweater, food, table, cake, long_hair, cake_slice, saucer, hair_ornament, off_shoulder, menu, tail, pink_rose, solo, cat_ears, brown_hair, red_nails, plant, cookie, coffee, hat, pink_flower, holding_book, mug, tiered_tray, purple_flower, fork, nail_polish, red_headwear, sandwich, teapot, cat_tail, chair, pancake, indoors, looking_at_viewer, white_flower, sitting|autumn_leaves, maple_leaf, leaf, autumn, falling_leaves, holding_leaf, bell, jingle_bell, japanese_clothes, 1girl, blue_sky, day, sky, leaf_hair_ornament, cloud, ginkgo_leaf, miko, outdoors, shrine, solo, leaves_in_wind, white_kimono, tree, hakama_skirt, smile, looking_at_viewer, hakama, long_hair, cloudy_sky, brown_hair, hair_ornament, building, long_sleeves, brown_eyes, architecture, skirt, leaf_print|
+|--|--|
+|![lora_ori_1](./png/lora_ori_1.png)|![lora_ori_2](./png/lora_ori_2.png)|
+
+
+
+
 ## Special appreciation
 https://github.com/Mikubill/naifu-diffusion
 
