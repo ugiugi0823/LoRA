@@ -41,7 +41,7 @@ Train [LoRA](https://arxiv.org/abs/2106.09685)
 python trainer.py --config experiment/lora.yaml
 
 ## extract 
-python experiment/extract_lora.py --src last.ckpt
+python experiment/extract_lora.py --src ./checkpoint/last.ckpt --dst ./lora/last.ckpt
 ```
 
 Train [LoCon](https://github.com/KohakuBlueleaf/LoCon)
