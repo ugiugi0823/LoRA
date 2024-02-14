@@ -17,7 +17,7 @@
     - [Ubuntu 23.04 단계별 설치.](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#ubuntu-2304-%EB%8B%A8%EA%B3%84%EB%B3%84-%EC%84%A4%EC%B9%98)
         - [Python 3.10은 Ubuntu >=23.04에서 사용할 수 없습니다.](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#python-310%EC%9D%80-ubuntu---2304%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%A0-%EC%88%98-%EC%97%86%EC%8A%B5%EB%8B%88%EB%8B%A4)
             - [Python 빌드](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#python-%EB%B9%8C%EB%93%9C)
-       [[로라 모든 것]]     - [특별한 venv 설정](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#%ED%8A%B9%EB%B3%84%ED%95%9C-venv-%EC%84%A4%EC%A0%95)
+       [[로라 모든 것]]  - [특별한 venv 설정](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#%ED%8A%B9%EB%B3%84%ED%95%9C-venv-%EC%84%A4%EC%A0%95)
             - [Phantom 라이브러리 버전](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#phantom-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B2%84%EC%A0%84)
     - [bmaltais의 kohya_ss](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#bmaltais%EC%9D%98-kohya-ss)
         - [Ubuntu 23.04](https://arca.live/b/aiart/84182288?mode=best&target=all&keyword=lora&p=1#ubuntu-2304)
