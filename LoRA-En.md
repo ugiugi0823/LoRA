@@ -148,7 +148,7 @@ I'll also note things that can improve your results when uploading to CivitAI or
     4. [Scheduler](https://rentry.org/59xed3#scheduler)
 14. [TYPES OF TRAINING](https://rentry.org/59xed3#types-of-training)
     1. ["Finetune style" (Default)](https://rentry.org/59xed3#finetune-style-default)
-        1. [Multiple concept support](https://rentry.org/59xed3#multiple-concept-support)
+        1. [mutiple concept](https://rentry.org/59xed3#multiple-concept-support)
     2. ["Dreambooth style"](https://rentry.org/59xed3#dreambooth-style)
         1. [When to use "finetune" or "dreambooth style" training](https://rentry.org/59xed3#when-to-use-finetune-or-dreambooth-style-training)
     3. ["Keyword style"](https://rentry.org/59xed3#keyword-style)
@@ -764,9 +764,10 @@ Like finetuning a model, it uses _caption files_, small .txt files matching the
 Captions are composed of either a bunch of _prose_ describing the image ("Laetitia walking on a flower field") or a collection of _tags_ ("Laetitia, 1girl, solo, flower field").  
 If you find the captioning process a hassle, or **you want to train an artist style** without bothering, scroll down to the "Keyword Dreambooth" section.
 
-#### Multiple concept support
+#### mutiple concept
+<p align="center"><img src="./png/RoLA-9.png" alt="P9">
 
-![Laetitia in a crude Hitachi Seaside Park (It's a place in Japan)](https://i.imgur.com/Z2YvuAZ.png "Laetitia in a crude Hitachi Seaside Park (It's a place in Japan)")Training multiple concepts in a single LORA, despite their more focused usage, is still possible. The image example uses the character of [Laetitia](https://lobotomycorp.fandom.com/wiki/Laetitia) in [Hitachi Seaside Park](https://en.wikipedia.org/wiki/Hitachi_Seaside_Park#/media/File:Baby_blue-eyes,Nemophila,Hitachinaka-city,Japan.jpg), both baked into the same model.  
+Training multiple concepts in a single LORA, despite their more focused usage, is still possible. The image example uses the character of [Laetitia](https://lobotomycorp.fandom.com/wiki/Laetitia) in [Hitachi Seaside Park](https://en.wikipedia.org/wiki/Hitachi_Seaside_Park#/media/File:Baby_blue-eyes,Nemophila,Hitachinaka-city,Japan.jpg), both baked into the same model.  
 You can train backgrounds, more than one character, items related to that character...anything goes, but it needs tagging and some logical balance, some common sense applies:
 
 - Don't put more backgrounds than characters as it tends to give you empty backgrounds.
