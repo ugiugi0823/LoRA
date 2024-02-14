@@ -1,0 +1,21 @@
+numpy
+accelerate
+lightning>=1.9
+omegaconf>=2.1.1
+lightning_lite
+transformers>=4.30
+diffusers>=0.19
+bitsandbytes>=0.41
+wandb
+ftfy
+torchvision
+requests
+timm
+safetensors
+torch-ema
+tensorboard
+
+# For hivemind
+# hivemind>=1.1.2
+# protobuf>=3.20.0
+# git+https://github.com/learning-at-home/hivemind
