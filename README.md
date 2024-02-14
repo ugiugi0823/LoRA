@@ -7,12 +7,12 @@
 git clone https://github.com/ugiugi0823/LoRA.git
 ```
 
-## By conda
+### By conda
 ```
 conda env create -f environment.yaml
 conda activate nd
 ```
-## OR by pip
+### OR by pip
 ```
 pip install -r requirements.txt
 ```
@@ -64,6 +64,8 @@ Convert any checkpoint to safetensors
 python scripts/sd_to_safetensors.py --src input.ckpt --dst output.safetensors
 ```
 
+
+## Result
 
 
 ## Special appreciation
