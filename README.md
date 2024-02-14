@@ -1,7 +1,7 @@
 # LoRA
 
 <p align="center"><img src="./png/lora-model.jpg" alt="model">
-[Youtube Link](https://www.youtube.com/watch?app=desktop&v=dA-NhCtrrVE)
+[Youtube_Link](https://youtu.be/dA-NhCtrrVE?si=xhoLto3eRSF3g7ec)
 
 
 
