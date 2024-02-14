@@ -63,3 +63,10 @@ Convert any checkpoint to safetensors
 ```bash
 python scripts/sd_to_safetensors.py --src input.ckpt --dst output.safetensors
 ```
+
+
+
+## Special appreciation
+https://github.com/Mikubill/naifu-diffusion
+
+
