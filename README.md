@@ -4,6 +4,14 @@
 [Youtube_Link](https://youtu.be/dA-NhCtrrVE?si=xhoLto3eRSF3g7ec)
 
 
+## Tutorial
+### 한국어 버전
+![LoRA-Ko](https://github.com/ugiugi0823/LoRA/blob/main/docs/LoRA-Ko.md)
+
+### 영어 버전(Ori)
+![LoRA-Eo](https://github.com/ugiugi0823/LoRA/blob/main/docs/LoRA-Eo.md)
+
+
 
 ## Install Requirements
 ```
