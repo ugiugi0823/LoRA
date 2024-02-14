@@ -7,12 +7,13 @@
 git clone https://github.com/ugiugi0823/LoRA.git
 ```
 
-
-# by conda
+## by conda
+```
 conda env create -f environment.yaml
 conda activate nd
-
-# OR by pip
+```
+## OR by pip
+```
 pip install -r requirements.txt
 ```
 
