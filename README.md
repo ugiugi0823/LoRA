@@ -77,6 +77,7 @@ python scripts/sd_to_safetensors.py --src input.ckpt --dst output.safetensors
 
 ## Training Result
 
+|a girl in black serafuku standing in a field. Tags: solo, food, fruit, lemon, masterpiece|a girl running fast on the country lane|
 |--|--|
 |epoch 0|epoch 0|
 |![lora_ori_1](./png/nd_sample_e0_s17_1.png)|![lora_ori_2](./png/nd_sample_e0_s17_0.png)|
