@@ -11,7 +11,7 @@ lora:
   dropout: 0.0
 
 trainer:
-  model_path: "/notebooks/storage/webui/models/Stable-diffusion/Counterfeit-V2.0.ckpt"
+  model_path: "<your data dir path>/SD-models/v1-5-pruned-emaonly.ckpt"
   batch_size: 2
   resolution: 512
   center_crop: false
@@ -46,13 +46,13 @@ lightning:
   devices: -1
   auto_select_gpus: true
   # limit_train_batches: 100
-  max_epochs: 20
+  max_epochs: 300
   precision: bf16-true
   log_every_n_steps: 1
   accumulate_grad_batches: 1
 
 dataset:
-  img_path: "/notebooks/PVC-XL"
+  img_path: "<your data dir path>/LoRA/dataset"
   tag_processor: data.processors.shuffle_prompts
   center_crop: false
   ucg: 0.0
@@ -93,10 +93,12 @@ sampling:
   width: 512
   steps: 28
   cfg_scale: 9
-  negative_prompts: 
-    - "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry"
-  prompts: 
-    - "masterpiece, best quality, 1girl, kitagawa_marin"
+  negative_prompts:
+    - "lowres, bad anatomy, text, error, extra digit, cropped"
+    - "lowres, low quality"
+  prompts:
+    - "a girl running fast on the country lane"
+    - "a girl in black serafuku standing in a field. Tags: solo, food, fruit, lemon, masterpiece"
   
 # arb config will be calculated automatically if not specified
 # to override, uncomment and specify values
