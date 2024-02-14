@@ -7,7 +7,7 @@
 git clone https://github.com/ugiugi0823/LoRA.git
 ```
 
-## by conda
+## By conda
 ```
 conda env create -f environment.yaml
 conda activate nd
