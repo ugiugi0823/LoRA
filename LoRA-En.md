@@ -565,16 +565,15 @@ I personally think using more exotic base models leads to a fragmentation of the
 
 |Grid of Unet/TE strengths 0.1,0.25,0.5,1 and 2 |Grid of Unet/TE strengths 1.0,1.2,1.4,1.5,1.6,1.8 |
 |--|---|
-|![[Pasted image 20240214112222.png]]|![[Pasted image 20240214112256.png]]|
-
-
-![RoLA-7](./png/RoLA-7.png)
-![RoLA-8](./png/RoLA-8.png)
+|![RoLA-7](./png/RoLA-7.png)|![RoLA-8](./png/RoLA-8.png)|
 
 
 
-<p align="center"><img src="./png/RoLA-7.png" alt="P7">
-<p align="center"><img src="./png/RoLA-8.png" alt="P8">
+
+
+
+
+
 
 Display of effects of learning rate. This displays this model has just enough Unet training but can use a bit more TE training, Unet 1.0 - TE 1.5 looks accurate but not chibi. That means next training will go better with 1.5 LE rate.
 
