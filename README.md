@@ -1,6 +1,9 @@
 # LoRA
 
 <p align="center"><img src="./png/lora-model.jpg" alt="model">
+![Youtube Link](https://www.youtube.com/watch?app=desktop&v=dA-NhCtrrVE)
+
+
 
 ## Install Requirements
 ```
